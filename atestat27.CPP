@@ -59,8 +59,8 @@ void main()
  citire();
 max();
 modif();
- afis();
-	}
+afis();
+}
 
 
 
