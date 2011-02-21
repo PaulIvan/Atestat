@@ -33,12 +33,11 @@ void max()
 
 void modif()
 { for(i=0;i<n;i++)
-		for(j=0;j<m;j++)
-				if(a[j][i]==maxm)
-							{
-							a[j][i]=v[i];
-							c++;
-							}
+	for(j=0;j<m;j++)
+	if(a[j][i]==maxm)
+	   {a[j][i]=v[i];
+	    c++;
+	   }
 
 
 
@@ -58,7 +57,7 @@ g<<c;
 
 void main()
 {clrscr();
- citire();
+citire();
 max();
 modif();
 afis();
