@@ -23,13 +23,12 @@ int main()
 { f>>n;
 fibon();
 for(i=0;i<c-1;i++)
-	for(j=i+1;j<c;j++)
-		if(v[i]+v[j]==n) 
-			{
-				cout<<v[i]<<"+"<<v[j];
-				i=n-1;
-				j=n;
-			}
+for(j=i+1;j<c;j++)
+	if(v[i]+v[j]==n) 
+	{ cout<<v[i]<<"+"<<v[j];
+	  i=n-1;
+	  j=n;
+	}
 		
 return 0;
 }
