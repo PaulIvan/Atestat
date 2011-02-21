@@ -45,13 +45,15 @@ void modif()
 }
 
 void afis()
-{	for(i=0;i<n;i++)
-	{if(i) g<<endl;
-	for(j=0;j<m;j++)
+{
+  for(i=0;i<n;i++)
+  {
+    if(i) g<<endl;
+      for(j=0;j<m;j++)
 	 g<<a[i][j]<<" ";
-	}
-	g<<endl;
-	g<<c;
+  }
+g<<endl;
+g<<c;
 }
 
 void main()
